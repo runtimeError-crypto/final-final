@@ -1,5 +1,5 @@
 {
-    "name": "final-final",
+    "name": "tracker",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -7,8 +7,9 @@
         "@testing-library/react": "13.0.0-alpha.4",
         "@testing-library/user-event": "14.0.0-alpha.14",
         "firebase": "9.5.0-20211017183813",
-        "react": "^17.0.2",
+        "react": "18.0.0-alpha-fd5e01c2e-20210913",
         "react-dom": "18.0.0-alpha-fd5e01c2e-20210913",
+        "react-router": "^6.0.2",
         "react-scripts": "5.0.0-next.47",
         "web-vitals": "2.0.0-beta.2"
     },
@@ -52,5 +53,10 @@
                 "webpack:///src/*": "${webRoot}/*"
             }
         }
+    ],
+    "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
     ]
 }

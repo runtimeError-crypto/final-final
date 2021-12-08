@@ -1,6 +1,3 @@
-import babel from "react-babel"
-
-
 import {
     render,
     screen
